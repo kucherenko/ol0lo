@@ -1,0 +1,52 @@
+{
+  "name": "ol0lo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "deploy": "firebase deploy --only functions"
+  },
+  "dependencies": {
+    "firebase": "^8.10.0",
+    "firebase-admin": "^9.11.0",
+    "firebase-functions": "^3.14.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.9.6",
+    "jest": "^27.2.1",
+    "ts-jest": "^27.0.7",
+    "@nuxt/types": "^2.15.7",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@nuxtjs/firebase": "^7.2.0",
+    "@nuxtjs/tailwindcss": "^4.1.1",
+    "nuxt": "^2.15.8"
+  },
+  "nuxt": {
+    "buildModules": [
+      "@nuxt/typescript-build",
+      "@nuxtjs/tailwindcss",
+      "@nuxtjs/firebase"
+    ],
+    "modules": [
+      "@nuxtjs/firebase"
+    ],
+    "firebase": {
+      "config": {
+        "apiKey": "YOUR_API_KEY",
+        "authDomain": "YOUR_AUTH_DOMAIN",
+        "projectId": "YOUR_PROJECT_ID",
+        "storageBucket": "YOUR_STORAGE_BUCKET",
+        "messagingSenderId": "YOUR_MESSAGING_SENDER_ID",
+        "appId": "YOUR_APP_ID",
+        "measurementId": "YOUR_MEASUREMENT_ID"
+      },
+      "services": {
+        "auth": true,
+        "firestore": true
+      }
+    }
+  }
+}
