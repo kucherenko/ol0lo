@@ -1,0 +1,1 @@
+<Vue.js syntax to define the structure and layout of the footer component>
