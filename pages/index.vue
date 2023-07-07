@@ -1,11 +1,22 @@
 <template>
   <div>
-    <h1>Welcome to my Nuxt project!</h1>
+    <GameBoard />
+    <Timer />
+    <!-- Additional UI elements here -->
   </div>
 </template>
 
 <script>
-export default {}
+import GameBoard from '@/components/GameBoard.vue'
+import Timer from '@/components/Timer.vue'
+
+export default {
+  components: {
+    GameBoard,
+    Timer
+  },
+  // Additional logic here
+}
 </script>
 
 <style>
