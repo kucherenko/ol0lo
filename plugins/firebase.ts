@@ -1,12 +1,12 @@
-import firebase from 'firebase/app';
-import 'firebase/functions';
+// import firebase from 'firebase/app';
+// import 'firebase/functions';
 
-const firebaseConfig = {
-  // Firebase project configuration object
-};
+// const firebaseConfig = {
+//   // Firebase project configuration object
+// };
 
-if (!firebase.apps.length) {
-  firebase.initializeApp(firebaseConfig);
-}
+// if (!firebase.apps.length) {
+//   firebase.initializeApp(firebaseConfig);
+// }
 
-export default firebase;
+export default {};
