@@ -1,16 +1,17 @@
 <template>
-  <nav>
-    <h1>Card Memory Game</h1>
-  </nav>
+    <div class='nav'>
+        <h1>Card Memory Game</h1>
+    </div>
 </template>
 
 <script>
 export default {
-  name: 'Nav',
-  // Component logic goes here
+    name: 'Nav',
 }
 </script>
 
-<style>
-/* Component styles go here */
+<style scoped>
+.nav {
+    // add styling for the Nav component
+}
 </style>
