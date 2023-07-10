@@ -9,4 +9,4 @@
 //   firebase.initializeApp(firebaseConfig);
 // }
 
-export default {};
+export default {}
