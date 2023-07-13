@@ -1,7 +1,6 @@
 export default {
   // Nuxt.js modules
   modules: [
-    '@nuxt/types',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/eslint-module',
   ],
