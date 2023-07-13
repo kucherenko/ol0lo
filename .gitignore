@@ -1,0 +1,23 @@
+# Node.js
+node_modules/
+package-lock.json
+
+# Build
+build/
+dist/
+
+# Temporary
+*.tmp
+*.swp
+
+# IDE-specific
+.vscode/
+.idea/
+
+# Miscellaneous
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# Log Files
+logs/
