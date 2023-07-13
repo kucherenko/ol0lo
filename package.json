@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
+    "build": "nuxt build && npm run minify && npm run compress-images",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "minify": "<script to run minification tool>",
+    "compress-images": "<script to run image compression tool>"
   },
   "dependencies": {
     "nuxt": "^2.15.3",
