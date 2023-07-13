@@ -1,0 +1,2 @@
+# Ignore Nuxt.js build output directory
+.nuxt/
