@@ -20,5 +20,8 @@ export default {
         autoprefixer: {},
       }
     }
+  },
+  server: {
+    port: 8080,
   }
 }
